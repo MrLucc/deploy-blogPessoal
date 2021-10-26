@@ -36,3 +36,10 @@ label {
 .fonteDS1 {
     font: 40px "fonteDS";
 }
+
+@font-face {
+    font-family: "fonteDS";
+    src: url("../../blogPessoal/src/assets/fonts/OptimusPrinceps.ttf") format("Truetype");
+    font-weight: normal;
+    font-style: normal;
+}

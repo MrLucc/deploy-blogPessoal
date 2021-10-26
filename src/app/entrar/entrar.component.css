@@ -1,5 +1,3 @@
-/*TRATAMENTO DA IMAGEM NO BACKGROUND*/
-
 #img-bg {
     background-image: url("../../assets/img/92311f58450d8704305d91a8d23b610a.jpg");
     min-height: 979px;
@@ -56,4 +54,11 @@ label {
 .fonteDS1 {
     font: 40px "fonteDS";
     color: #ed6952;
+}
+
+@font-face {
+    font-family: "fonteDS";
+    src: url("../../blogPessoal/src/assets/fonts/OptimusPrinceps.ttf") format("Truetype");
+    font-weight: normal;
+    font-style: normal;
 }
