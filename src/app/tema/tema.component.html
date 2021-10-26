@@ -1,0 +1,61 @@
+<div class="container-fluid">
+
+    <div class="row bg">
+        <div class="col-md-12 text-white">
+
+            <h1 class="text-center fonteDS-letras">Themes</h1>
+            <h5 class="text-center fonteDS">See here all the themes registered or register a new one, ashen one:</h5>
+
+            <div class="row d-flex justify-content-center mt-4 mb-5">
+                <div class="col-md-2">
+                    <div class="from-group">
+                        <input [(ngModel)]="tema.tema" type="text" class="form-control" id="Description" placeholder="Enter the theme description">
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-2">
+                        <button class="btn btn-color fonteDS-1" (click)="cadastrar()">Register</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <h2 class="text-center dsFonte">All themes</h2>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-5 d-flex justify-content-center">
+        <div class="col-md-6">
+
+            <table class="table table-hover dsFonte">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Description</th>
+                        <th scope="col" class="text-right">Modifications</th>
+
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let item of listaTemas">
+                        <th>{{item.idTema}}</th>
+                        <td>{{item.tema}}</td>
+                        <td class="d-flex justify-content-end">
+                            <button class="btn btn-info mr-3" [routerLink]="['/tema-edit',item.idTema]">Edit</button>
+                            <button class="btn btn-danger" [routerLink]="['/tema-delete',item.idTema]">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>

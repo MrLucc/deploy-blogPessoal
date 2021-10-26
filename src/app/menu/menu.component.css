@@ -1,0 +1,39 @@
+.fs-16 {
+    font-size: 16pt;
+}
+
+a {
+    cursor: pointer;
+}
+
+.fa {
+    color: #dfcaa0;
+}
+
+.mg-cover {
+    object-fit: cover;
+}
+
+
+/*FONTE LINKADA NAS TAGS "P" E "A"(FONTE DARK SOULS)*/
+
+@font-face {
+    font-family: "fonteDS";
+    src: url("../../assets/fonts/OptimusPrinceps.ttf") format("Truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font: 36px "fonteDS";
+}
+
+a {
+    font: 36px "fonteDS";
+}
+
+.icon {
+    src: url("https://i.imgur.com/K3Q9CkP.gif");
+    height: 30px;
+    width: 30px;
+}
