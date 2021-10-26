@@ -31,10 +31,3 @@ h5 {
 .fonteDS-letras {
     font: 12px "fonteDS"
 }
-
-@font-face {
-    font-family: "fonteDS";
-    src: url("../../blogPessoal/src/assets/fonts/OptimusPrinceps.ttf") format("Truetype");
-    font-weight: normal;
-    font-style: normal;
-}

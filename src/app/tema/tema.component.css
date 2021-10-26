@@ -27,10 +27,3 @@
     font: 28px "fonteDS";
     color: #dfcaa0;
 }
-
-@font-face {
-    font-family: "fonteDS";
-    src: url("../../blogPessoal/src/assets/fonts/OptimusPrinceps.ttf") format("Truetype");
-    font-weight: normal;
-    font-style: normal;
-}

@@ -27,10 +27,3 @@ a {
     height: 30px;
     width: 30px;
 }
-
-@font-face {
-    font-family: "fonteDS";
-    src: url("../../blogPessoal/src/assets/fonts/OptimusPrinceps.ttf") format("Truetype");
-    font-weight: normal;
-    font-style: normal;
-}
