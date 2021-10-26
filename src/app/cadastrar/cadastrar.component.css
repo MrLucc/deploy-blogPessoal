@@ -10,16 +10,6 @@
     background-color: #0F0D01;
 }
 
-
-/*FONTE LINKADA NAS TAGS(FONTE DARK SOULS)*/
-
-@font-face {
-    font-family: "fonteDS";
-    src: url("../../assets/fonts/OptimusPrinceps.ttf") format("Truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 h1 {
     font: 46px "fontDS";
     color: #dfcaa0;

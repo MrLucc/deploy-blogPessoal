@@ -8,16 +8,6 @@
     background-size: cover;
 }
 
-
-/*FONTE LINKADA NAS TAGS(FONTE DARK SOULS)*/
-
-@font-face {
-    font-family: "fonteDS";
-    src: url("../../assets/fonts/OptimusPrinceps.ttf") format("Truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 input {
     font: 18px "fonteDS";
 }
